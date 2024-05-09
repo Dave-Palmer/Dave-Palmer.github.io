@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daves Portfolio</title>
+    <title>Dave's Portfolio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,26 +17,22 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main>
-      <div class="page-one">
-        <div class="header-container">
-          <img
-            class="header-image img-fluid"
-            src="./public/images/IMG_4136.JPG" />
-        </div>
+    <main class="overlay-conatiner">
+      <div class="overlay"></div>
+      <div class="page-content">
         <div class="pt-5 pb-5 container">
           <h1 id="name">Dave Palmer</h1>
           <h3>Software Developer</h3>
         </div>
-      </div>
+
       <div class="pt-5 container ">
         <h2>A little about me..</h2>
         <p>
-          After 13 years of being in the trades industry as an Electrician, I had decided a change was due. 
+          After 13 years of being in the skilled trades as an Electrician, I had decided a change was due. 
           Settling with the decision last year to take the leap and steer my career towards the I.T industry, I started an online web developer bootcamp on Udemy.
           Quickly, I found myself getting the hang of the basic concepts and enjoyed learning to code.
-          In February this year I put my day job on hold and signed up for an intensive full-time software engineering course for 3 months.
-          I’m looking to continue my software development journey and land a job as a junior developer.
+          Following that, I put my day job on hold and signed up for an intensive full-time software engineering course for 3 months.
+          I’m looking to continue my software development journey and land a role as a junior developer.
         </p>
         <div class="d-flex justify-content-center">
           <a href="https://linkedin.com/in/dave-palmer-a39b7b275" target="_blank"><img class="tech-icon m-1" src="./public/images/640px-LinkedIn_logo_initials.png" alt=""></a>
@@ -63,7 +59,7 @@
               </div>
           <hr class="solid">
                 <p class="card-text">
-                  Trade Track is my capstone project which was presented to the class at the end of the software engineering course.
+                  Trade Track is my capstone project which I had to presented to the class at the end of the software engineering course.
                   It's a fullstack web application built with M.E.R.N. It's designed to create a simple way to track tools and items moving between staff in a busy workplace.
                   <div class="card-text">Admin User can:</div>
                   <ul class="card-text">
@@ -132,8 +128,8 @@
          <hr class="solid">
                 <p class="card-text">
                 This is my first mini project from the software engineering course during the frontend module.
-                It's to showcase basic responsive webpage layout (and my interest in beer brewing of course).
-                It uses a couple of free APIs, one for a random dad joke and one for the beer recipes
+                It's to showcase a basic responsive webpage layout (and my interest in beer & brewing of course).
+                It fetches data from a couple of free APIs, one for a random dad joke and one for the breweries.
                 </p>
                 <div class="navigation-buttons">
                   <a  href="https://brewing.onrender.com" target="_blank" class="btn custom-button"><span><img class="button-image" src="./public/images/link.png" alt=""></span>Link</a>
@@ -178,6 +174,7 @@
           </div>
         </div>
       </section>
+    </div>
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
