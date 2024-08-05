@@ -131,6 +131,15 @@ hr.solid {
     cursor: pointer;
 }
 
+.profile-link {
+    transition: transform 0.25s;
+}
+
+.profile-link:hover {
+    transform: translateY(-0.05em);
+    cursor: pointer;
+}
+
 
 .button-image {
     max-width: 30px;
